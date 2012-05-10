@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="examples" root="/Users/jakob/OpenCL/fortrancl/examples">
+      <df name=".libs">
+      </df>
+      <df name="arena_initial">
+      </df>
+      <df name="include">
+        <in>ellipf.f90</in>
+        <in>r1mach.f90</in>
+        <in>rd.f</in>
+        <in>rf.f</in>
+      </df>
+      <in>cl_collision_operator.f90</in>
+      <in>cl_collop.f90</in>
+      <in>cl_mccoll_v1.f90</in>
+      <in>coll_op.cl</in>
+      <in>coll_opin.cl</in>
+      <in>coll_opwork.cl</in>
+      <in>collision_operator.f90</in>
+      <in>collision_operator.mod</in>
+      <in>comek.mod</in>
+      <in>devices.f90</in>
+      <in>ellipf.f90</in>
+      <in>globals.f90</in>
+      <in>math.h</in>
+      <in>modules.f90</in>
+      <in>multiply.cl</in>
+      <in>multiply.f90</in>
+      <in>numeric_constants.f90</in>
+      <in>numeric_constants.mod</in>
+      <in>r1mach.f90</in>
+      <in>rd.f</in>
+      <in>rf.f</in>
+      <in>square_add_one.cl</in>
+      <in>sum.cl</in>
+      <in>sum.f90</in>
+      <in>sum_copy.cl</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>/Users/jakob/OpenCL/fortrancl/examples</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>multiply</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/coll_op.cl"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/devices.f90"
+            ex="true"
+            tool="2"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/multiply.cl"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/multiply.f90"
+            ex="true"
+            tool="2"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/square_add_one.cl"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/sum.cl"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+      <item path="/Users/jakob/OpenCL/fortrancl/examples/sum_copy.cl"
+            ex="false"
+            tool="3"
+            flavor="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
